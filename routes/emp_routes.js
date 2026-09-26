@@ -24,6 +24,21 @@ let passmatch=await bcrypt.compare(req.body.password,user.password);
 })
 router.get("/viewtasks",(req,res)=>{
     res.send("view task page called");
+});
+
+
+router.patch("/updateprofile/:id",async (req,res)=>{
+    let data=req.body;
+    if(data.password){
+        data.password=await bcrypt.hash(data.password,10);
+    }
+    let updatedata=await users.findByIdAndUpdate(req.params.id,
+                    {$set:data});
+    res.send(updatedata);
+
 })
-//do same for /viewtodo & /updateprofile
+
+
+
+
 module.exports=router;
