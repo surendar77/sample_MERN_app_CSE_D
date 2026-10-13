@@ -1,0 +1,1292 @@
+MERN
+
+website => collection of webpages
+webpage => collection of html,css,js components
+
+
+
+Combinations of FSD (web development)
+
+1.React ->  python/FastAPI -> Mongodb/MySQL
+2.React ->  java/Springboot -> Mongodb/MySQL
+3.React ->  nodejs/Expressjs -> Mongodb/MySQL (MERN)
+4.Angular -> nodejs/Expressjs -> Mongodb/MySQL (MEAN)
+
+
+Mobile app FSD combinations
+1.React-native -> nodejs/Expressjs -> Mongodb/MySQL (MEAN)
+2.Flutter -> nodejs/Expressjs -> Mongodb/MySQL (MEAN)
+
+
+CSS
+  -style the html components
+
+syntax:
+
+attribute name : value ;
+
+color :red;
+font-size:22px;
+background-color:blue;
+
+
+
+Types of CSS:
+  1.inline(within the tag)
+    with style attribute
+  eg: <h1 style="color:red;">hai</h1>
+  2.internal(within the webpage)
+    within style tag inside head tag 
+      <style>
+         h1{
+           color:red;
+           }
+      </style
+   3.external (overall project)
+     -outside html page create styles
+
+
+create new folder css_basics
+    -inside folder create new file index.html
+
+
+29/07/2026
+
+Bootstrap
+   - it is predefined framework to design UI easily
+   - Responsive(it will adapted for all diff devices)
+
+
+create a new folder bootstrapexp
+    -inside the folder create new file index.html
+
+
+open browser
+  search bootstrap
+
+click on the first 
+
+
+
+For slider section
+
+ download 3 diff images from internet
+
+note: all images should be same width and height
+
+copy and paste the images into project folder 
+
+rename short names => img1,img2,...
+
+
+
+
+
+01/08/2026
+
+Bootstrap part-II
+
+ 
+                      <h4><u>Quick links</u></h4>
+                      <ul class="list-unstyled">
+     <li><a class="text-decoration-none text-white" href="#">Home</a></li>
+     <li><a class="text-decoration-none text-white" href="#">About us</a></li>
+   <li><a class="text-decoration-none text-white" href="#">Contact us</a></li>
+  <li><a class="text-decoration-none text-white" href="#">Services</a></li>                        
+      </ul>
+    
+
+
+
+ 		<h4>Follow us on</h4>
+                     <!-- fs => size of icon & me => space btn icon -->
+                     <a href="#" class="fs-3 me-3 text-white">
+                       <i class="bi bi-facebook"></i>
+                     </a>
+                      <a href="#" class="fs-3 me-3 text-white">
+                       <i class="bi bi-instagram"></i>
+                     </a>
+                      <a href="#" class="fs-3 me-3 text-white">
+                       <i class="bi bi-twitter-x"></i>
+                     </a>
+                      <a href="#" class="fs-3 me-3 text-white">
+                       <i class="bi bi-linkedin"></i>
+                     </a>
+
+Go to browser => search git for windows => click first link
+
+ download standalone installer => x64 setup => install it
+
+
+login your github account 
+
+ make note of
+  -user name
+  -emaiid
+  -password
+of github account
+
+
+
+07/08/2026
+
+Today's topic:
+
+1.Github configuration in local
+	Go to browser => search git for windows => click first link
+        download standalone installer => x64 setup => install it
+	login your github account 
+               -search github in browser
+               -if already account login or signup
+
+2.project title discussion
+
+
+
+
+
+
+
+#one time commands for one system
+
+git config --global user.name "utcacademy"
+git config --global user.email "surenc1690@gmail.com"
+git config --list
+
+#commands for creating new respositorys
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+#unique => copy paste your respository from github
+git remote add origin https://github.com/utcacademy/myfirstapp.git
+git push -u origin main
+
+After change in html file
+#commands for update and upload project in the same repo
+git add .
+git commit -m "second commit"
+git remote add origin https://github.com/utcacademy/myfirstapp.git
+git push -u origin main
+
+project titles
+1	A DECENTRALIZED AGRICULTURAL TRADING PLATFORM USING BLOCKCHAIN TECHNOLOGY -D
+4	SASS BASED COLLEGE FINDER SYSTEM -M
+5	DATA DUPLICATION FINDING AND ANALYSIS USING CHECKSUM -M6	
+7	EBUG TRACKER AND SOLVER APP -E
+12	NYMBLE BLOCKING MISBEHAVING USERS ON ANONAMIZING NETWORKS-D
+15	PROJECT COLLECTOR APP -E
+17	SECURE FILE STORAGE USING CRYTOGRAPHY -M
+18	SECURE PAYMENT SYSTEM ON P2P NETWORK-M
+20	ZILLOW HOME VALUE PREDICTION-E
+
+
+https://tinyurl.com/vignan-cse-d
+
+
+
+
+Step 1:
+create two folders in local system
+1.Sample_mern_app
+    -readme.txt
+2.Your_project_name
+   -readme.txt
+Step 2:
+ Create two new respositories in github & configure in local by commands
+step 3: 
+   note down the github link for both projects
+eg:https://github.com/utcacademy/myfirstapp
+
+step 4:
+ once completed fill the below google form
+
+	https://tinyurl.com/vignan-cse-d
+
+
+
+
+08/08/2026
+
+javascript:
+  -variable declaration & function
+  -DOM manipulation
+  -Event listener
+
+instructions:
+    -create javascript-exp folder
+         -create file exp1.html
+
+
+javascript
+   -perform action in html components
+   -creating dynamic web app
+
+two types of js:
+   client side script(browser side validation)=>javascript
+      -email,password,pan card validation
+   server side script(server side) =>nodejs
+      -username validation
+
+js declaration(2 types)
+   -internal js
+   -external js
+
+
+variable declartion
+
+1.let(that can be change in runtime)
+2.const (that can't be change at runtime)
+3.var =>outdated
+
+
+
+
+
+
+
+function in js
+
+syntax:
+
+function funname(parameters){
+  //statement 
+}
+
+area_of_circle=pi*r*r
+area_of_cylinder=pi*r*r*h
+
+
+
+
+
+
+
+ function area_of_circle(r){
+                return pi*r*r;
+            }
+          
+//arrow function
+
+ let area_of_circle =(r)=>{return pi*r*r}
+
+
+let area_of_cylinder=(r,h)=>{return pi*r*r*h};
+console.log(area_of_cylinder(5,3))
+
+
+
+
+
+
+
+DOM manipulation
+ -> document object model
+ -> interaction btwn html components with javascript
+
+
+
+collect two numbers using two input textbox
+
+add two values by button click
+
+print output in paragraph tag
+
+let num1=parseInt(document.getElementById("num1").value)
+
+
+
+
+
+
+
+12/08/2026
+
+Today's topic
+
+1.jquery(javascript query)
+    -one of the library of javascript
+    -used to write customized javascript code
+    -mainly used on DOM and event listener
+
+Javascript
+document.getElementById("demo").innerHTML ="hello"
+document.getElementBy=>$
+jquery
+$("#demo").html("hello")
+
+
+
+    
+Instructions:
+   create folder jquery_exp and create file exp1.html
+        -then type basic html structure
+
+2.Github project link submission
+
+
+
+
+
+
+
+<script>
+    let price=50;
+    let quantity=$("#quan").val();
+    $("#inc_quan").click(()=>{
+        quantity++;
+        $("#quan").val(quantity);
+        $(".price").html(quantity*price);
+    });
+    $("#dec_quan").click(()=>{
+        if(quantity>1){
+        quantity--;
+        $("#quan").val(quantity);
+        $(".price").html(quantity*price);
+        }
+    })
+</script>
+
+
+
+
+
+
+
+
+
+
+
+open your github 
+
+create two repositories
+
+1.sample_mern_app
+2.your_project_name
+
+note down both url of rep
+
+and update in the below url
+
+https://tinyurl.com/vignan-cse-d
+
+
+
+
+
+14/08/2026
+
+project setup and project title discussion
+
+1.mongodb setup 
+
+  open browser
+search for mongodb community server
+either find select package or  mongodb version
+2.nodejs setup
+   open browser=> nodejs download
+   download menu=> windows installer
+3.github desktop setup
+
+19/08/2026
+
+MongoDB:
+   -introduction
+      -its nosql database
+      -it was represented by tree structure
+      -no unique set of field names are there
+      -json format(key and value)
+
+sql		nosql
+table format	json format
+database	database
+tables		collections
+rows and cols	key and value
+record or row	document
+
+
+   -CRUD operations
+
+Note: open mongodb compass
+
+
+
+
+sample_db_d=>database name
+collections=>users,product
+CRUD
+
+create collection:
+   db.createCollection("students")
+ 
+
+Create
+Read
+Update
+Delete
+
+show dbs
+  => it will display all databases
+
+show collections
+   => it will display all tables in particular database
+
+use (databasename)
+   => used to switch from one db to another db
+
+console.clear()
+   => used to clear previous output in console screen
+
+db.createCollection("students")
+   => for creating new collection
+
+show tables
+   => check the outcome
+
+
+insert data
+
+{"name":"surendar","age":29}
+
+once created it will generated one id
+_id =>primary key
+
+insertOne()
+insertMany()
+
+#command for insert one document
+db["users"].insertOne({"name":"surendar","age":39})
+
+#for read all records or documents
+
+db["users"].find()
+  
+#insertmany
+db["users"].insertMany([{"name":"anu","age":20},
+ 	 {"name":"bala","age":22},
+	 {"name":"saran","age":25}])
+
+{
+  "rollno":101,
+  "skills":["C","python","MERN"],
+  "address":{"city":"hyd","pincode":500023}
+}
+
+
+
+https://tinyurl.com/vignan-cse-d-notes
+
+copy dataset from instructions notepad file in drive and paste it
+inside insertMany()
+
+db["students"].insertMany()
+
+Read:
+ 
+find() =>used to display all the records
+findOne() => used to display only one document
+
+db["students"].findOne({"gender":"Female"})
+
+
+#find(condition)=> used to display records based on condition
+
+db["students"].find({"department":"CSE"})
+
+#exercise:
+  display only male or female students
+
+
+
+select * from students where age>21
+
+#display records based on condition age >21
+db["students"].find({"age":{$gt:21}})
+
+#display records based on condition age >=21
+db["students"].find({"age":{$gte:21}})
+
+#try the same for <($lt) <=($lte)
+
+#Exercise: display one record based on age >21
+
+
+21/08/2026
+
+MongoDB -part II
+
+CRUD operations
+
+note: open mongodb compass & open mongodb shell for student_db table
+
+find(condition)
+   -projection concept
+        db.student_db.find({},{name:1,age:1})
+              - with id it will print
+        db.student_db.find({},{_id:0,name:1,age:1})
+              -without id it will print
+
+
+
+   -comparision
+       =>  ==($eq)
+ db.student_db.find({"age":{$eq:21}},{})
+     -without projection
+ db.student_db.find({"age":{$eq:21}},{_id:0,name:1,age:1,department:1})
+    -with projection
+
+
+,!=($ne),
+db.student_db.find({"age":{$ne:21}},{_id:0,name:1,age:1,department:1})
+
+
+$in,
+
+db.student_db.find({"department":{$in:["CSE","ECE","MECH"]}},{_id:0,name:1,department:1})
+
+
+$nin
+   -try it by yourself in place $in replace $nin
+
+
+   -logical
+ $and
+
+#syntax
+$and:[{},{}]
+
+#query
+db.student_db.find({$and:[{"department":"CSE"},{"city":"Chennai"}]},{_id:0,name:1,city:1})
+
+
+ $or
+
+
+dept=CSE and (city=chennai or marks>=65)
+
+$and:[{},{$or:[{},{}]}]
+
+
+
+both $and & $or
+
+db.student_db.find({$and:[{"department":"CSE"},{$or:[{"city":"Chennai"},{"marks":{$gte:65}}]}]},{_id:0,name:1})
+
+ $not
+
+db.student_db.find({"department":{$not:{$eq:"CSE"}}},{_id:0,name:1,department:1})
+
+
+
+update
+   -used to change the value of keys
+
+updateOne()
+   -used to update one record
+updateMany()
+   -used to update many record at once
+
+Syntax:
+   ({condition or id},{$set:{changes with key name}})
+eg:
+   ({"stuid":101},{$set:{"phno":"84394"}})
+
+
+#updateOne
+db.student_db.updateOne({"studentId":"STU010"},{$set:{"city":"hyd"}})
+
+#updateMany
+db.student_db.updateMany({"department":"CSE"},{$set:{"age":21,"year":3}})
+
+
+#Exercise:
+1.fetch records department:cse and age>=21 and marks>60
+2.fetch records department:IT  or marks>=65
+3.update all IT department marks = 75
+4.fetch all records inbetween age 22 to 24
+5.fetch records dept:IT and city:chennai or age>=21
+
+
+
+
+
+delete
+   -delete is used to remove the record(s)
+
+
+deleteOne()
+deleteMany()
+
+    ({condition})
+
+#with user defined field
+db.student_db.deleteOne({"studentId":"STU009"})
+
+#with autogenerated id=> best practice
+db.student_db.deleteOne({_id:ObjectId('6a82cc257ff1b84d9c31be05')})
+
+#deletemany
+
+db.student_db.deleteMany({"department":"ECE"})
+
+
+
+
+
+
+aggregate functions
+    -it is used to filter,calculate,sorting and some mathematical functions
+
+
+limit()
+  -db.student_db.find({},{_id:0,name:1}).limit(3)
+sort()
+count()
+   -db.student_db.find().count()
+match()
+group()
+
+
+
+#sort by ascending
+db.student_db.find({},{_id:0,name:1,age:1},).sort({age:1})
+
+#sort by descending
+db.student_db.find({},{_id:0,name:1,age:1},).sort({age:-1})
+
+
+
+open drive link => open instructions file
+
+you can find sample products dataset...
+
+copy and paste in mongodb shell
+
+#Exercise:
+1.display products mobile category in ascending order
+2.display products Apple brand only 2 records
+3.print the count of products rating >=4.5
+4.display the products rating >=4.5 and price<=50000
+
+
+
+
+29/08/2026
+
+Aggregate functions
+
+Syntax:
+db.collection_name.aggregate([{agg fun1},{agg fun2},{agg fun3}])
+
+
+$match => used to filter the records
+
+db.products.aggregate([
+  {$match:{"category":"Laptop"}}
+]).forEach(doc=>print(JSON.stringify(doc)))
+
+
+$match and $sort
+
+db.products.aggregate([
+  {$match:{"category":"Laptop"}},
+  {$sort:{"price":-1}}
+]).forEach(doc=>print(JSON.stringify(doc)))
+
+
+$match and $sort and $limit(display only limited records)
+
+$project => used to display particular colunms
+
+
+db.products.aggregate([
+  {$match:{"category":"Laptop"}},
+  {$sort:{"price":-1}},
+  {$limit:2},
+  {$project:{_id:0,name:1,brand:1,price:1}}
+]).forEach(doc=>print(JSON.stringify(doc)))
+
+
+$group=> it is used to group the documents
+
+$sum => used to find the total of the particular
+
+$min => used to print minimum value in particular col
+$max => used to print maximum value in particular col
+$avg => used to print average value in particular col
+
+db.products.aggregate([
+  {$group:{
+    _id:"$category",
+    "totalproducts":{$sum:1},
+    "lowestprice":{$min:"$price"}}}
+]).forEach(doc=>print(JSON.stringify(doc)))
+
+Exercise:(in students table)
+
+1.match cse students and print only name and age then ascending order by name
+2.group gender column and sort by their age in descending 
+3.group departments and display how many students in each department
+4.group departments and display print min and max in each department
+
+
+
+
+
+
+
+
+
+
+
+$min,$max,$avg
+$addFields
+$cond
+$lookup
+
+
+02/09/2026
+
+Advanced aggregate function
+
+
+1.$push => it is used append the values of grouped datas
+   
+     -$group=>it is used to group the particular categories
+
+
+db.products.aggregate([
+  {$group:{_id:"$category",
+   "prod_details":{$push:{name:"$name",brand:"$brand",price:"$price"}}}}
+]).forEach(doc=>print(JSON.stringify(doc)))
+
+
+2.$addFields
+     =add fields based on another column value by condition
+3.$cond
+     =represent the condition for adding new column
+
+
+Exercise:
+  add new field productstatus by condition if the price column value is
+>=50000 means then its premium else regular
+
+sno	prodname   prodprice  productstatus
+1	HP	    65000	premium
+2	powerbank    999	regular
+
+
+db.products.aggregate([
+  {$addFields:{
+    "productstatus":{
+      $cond:[{$gte:["$price",50000]},"premium","Regular"]
+    }
+  }}  
+]).forEach(doc=>print(JSON.stringify(doc)))
+
+
+
+
+
+
+
+4.$switch => if more than 2 conditions then can use $switch
+
+5.$lookup
+     -it similar like join queries
+
+create new database => college_db
+                       Collections:
+                          -departments
+			  -sections
+			  -students
+departments
+dept_id		dept_name	dept_codi	dept_hod
+101		CSE		Mani		Raja
+102		ACSE		pawan		Raja
+dept_id=> primary
+sections
+sec_id		sec_name	sec_cord	dept_id
+1		A		veeraya		101
+2		D		teja		101
+sec_id=> primary key	dept_id=> foreign key
+
+students:
+stu_id	  stu_name	sec_id		dept_id
+stu101    A		2		101
+stu102	  B		1		101
+stu_id=> primary	sec_id & dept_id => foreign
+
+
+
+
+departments:
+
+{
+ "dept_id":101,
+ "dept_name":"CSE",
+ "dept_cood":"Mani",
+ "dept_hod":"Raja"
+}
+
+same create second record for ACSE
+
+
+
+
+#click sections table insert document
+[
+{"sec_id":1,"sec_name":"A","sec_coor":"Veeraya","dept_id":101},
+{"sec_id":2,"sec_name":"D","sec_coor":"teja","dept_id":101},
+{"sec_id":3,"sec_name":"A","sec_coor":"surendar","dept_id":102},
+{"sec_id":4,"sec_name":"B","sec_coor":"xyz","dept_id":102}
+]
+
+#click students table insert document
+[
+{"stu_id":"stu101","stu_name":"A","sec_id":1,"dept_id":101},
+{"stu_id":"stu102","stu_name":"B","sec_id":3,"dept_id":102},
+{"stu_id":"stu103","stu_name":"C","sec_id":4,"dept_id":102},
+{"stu_id":"stu104","stu_name":"D","sec_id":1,"dept_id":101},
+]
+
+
+
+$lookup
+   -from (which table need to connect) eg:sections
+   -localField (local ref field to connect with another table (sec_id)
+   -foreignField (in another table what is the ref key (sec_id)
+   -as (used to store fetch data from another table in one key
+        eg: as:"Section_details"
+
+
+
+db.students.aggregate([
+  {$lookup:{
+    from:"sections",
+    localField:"sec_id",
+    foreignField:"sec_id",
+    as:"section_details"
+  }}
+]).forEach(doc=>print(JSON.stringify(doc)))
+
+
+#multiple tables lookup query
+db.students.aggregate([
+  {$lookup:{from:"sections",localField:"sec_id",foreignField:"sec_id",
+   as:"sec_details"}},
+  {$lookup:{from:"departments",localField:"dept_id",foreignField:"dept_id",
+    as:"dept_details"}}  
+]).forEach(doc=>print(JSON.stringify(doc)))
+
+
+
+
+
+
+09/09/2026
+nodejs
+
+Day 01: introduction to nodejs,basics in nodejs,function
+Day 02: modules & require,callback function,file handling
+Day 03: creating own server and servering html page
+         with http methods
+Day 04: connecting nodejs with mongodb
+Day 05: buffer day
+
+
+
+Introduction to nodejs
+
+javascript => interactive webpage
+           => client side scripting(browser)
+
+nodejs
+      => server side scripting
+      => used to communicate with file system and database
+      => its a non-blocking code(async)
+
+create new folder nodejs_exp
+     -create new file exp1.js
+
+for run nodejs file
+
+right click on the file => open in integrated terminal
+
+then right bottom => terminal panel 
+
+ node exp1.js
+
+
+
+
+comman commands in terminal
+  cls=> clear the previous outputs in terminal
+  ctrl+c => used to stop execution of the current program
+  cd foldername => used to switch inner folder
+  cd.. => used to come out from the current folder
+
+keywords in nodejs
+
+__dirname => used to print current directory name
+__filename=> used to fetch or print current filename 		     +dirname
+module
+exports
+require
+
+variable declaration in nodejs
+
+let => can change the value of variable at run time
+const=> can't chage the value of variable
+var => same like let but its outdated
+
+create new file exp2.js
+
+
+
+
+
+
+
+
+array in nodejs
+
+let names=["surendar","arun","arul"]
+
+create new file exp3.js
+
+
+
+
+for(int i=0;i<n;i++)
+{
+  console.log(names[i]);
+}
+
+names.forEach(n => { console.log(n) });
+
+
+
+let names=["surendar","arun","arul"];
+console.log(names) // print all names
+console.log(names[2]) // print particular index name
+names.forEach(n=>{console.log(n)}); // print all names individual
+let ages=[17,23,45,18,20];
+ages.forEach(a=>{
+    if(a>18){
+        console.log(a); // print values based on condition
+    }
+})
+
+names.push("sathya");
+console.log(names);
+names.pop();
+console.log(names);
+
+
+
+objects in nodejs
+    -same like dictionary concept in python
+let stu_detail={"name":"surendar",
+                "skills":["python","MERN"],
+                "address":{"city":"CBE","state":"TN"}
+               }
+console.log(stu_detail);
+console.log(stu_detail["name"]); 
+   //it will through error if the key is mismatch and stop execution
+console.log(stu_detail.name);
+  //it will print null or undefined if the key is mismatch
+  //   execute the remaining code
+
+
+
+functions in nodejs:
+    -normal 
+    -arrow
+    -callback 
+normal function
+Syntax:
+ function fun_name(parameters){
+   //statement or condition
+ }
+arrow function:
+ syntax: function (=>)
+   let fun_name=(parameters)=> {statement/condition}
+
+
+
+
+
+//function definition
+let area_of_circle=(pi,r)=>{return pi*r*r};
+//function call
+console.log(area_of_circle(3.14,3));
+
+Exercise:
+1.create object in nodejs for the dataset product with following keys
+  prodname,prodprice,tags(array of values)
+ ,specialization(create sub keys like height,width,color)
+2.create a function for area_of_cylinder using arrow function
+
+
+11/09/2026
+
+Today's topic:
+
+1.Module and require
+
+module => separte file to configure comman functions or variables
+exports=> used to return the functions or variables in the module
+require => used to import the module file in current file
+
+create 2 new files 
+    1.math.js => supporting file (module,exports)
+    2.main.js => main file(require)
+
+
+./ => same directory module file access
+../ => outside of the directory or previous directory
+
+
+
+
+
+2.Call back function***
+      -the function passed inside another function paramater
+      -it is used for making flow of execution
+
+//calling second function inside the parameter of first function
+function first(second){
+}
+function second(){
+
+}
+
+
+create new file => exp6.js
+
+
+
+
+
+
+
+
+
+
+
+
+
+3.File handling
+
+predefined module => fs (file system)
+   -read the file (readFile())
+
+let fs=require('fs');
+
+//read the file
+fs.readFile('blog.txt',(err,data)=>{
+    if(err){
+        console.log(err);
+    }else{
+        console.log(data.toString());
+    }
+})
+
+
+
+
+
+
+
+   -write the file(writeFile())
+          -it will create file and add the content in the text file
+          -if file exists it will overwrite the text
+
+
+fs.writeFile('blog1.txt',"hai",()=>{
+    console.log("content written on the file");
+})
+
+
+//append file
+fs.appendFile('blog1.txt',"\nhai",()=>{
+    console.log("text appended in the existing file")
+})
+
+
+Exercise:
+1.create a module for perform area formulas, area_of_circle,area_of_cylinder
+and declare pi and export all and import in main file
+  Note: create separte folder as area and create file area_formula.js 
+        main file outside area folder
+2.create a new file log.txt and append the content into that file
+   
+
+
+
+
+
+
+
+
+
+
+
+   -append file (appendFile())
+   -create directory(mkdir())
+   -remove directory(rmdir())
+   -delete file(unlink())
+   -existsSync()=> used to check whether the file or folder already exists or not
+
+12/09/2026
+-creating server in nodejs
+
+create new folder => nodejs_server
+      create new file => app.js
+
+
+
+-Routes in server
+-http methods in server
+-serving html page in nodejs server
+
+
+
+
+
+localhost:3000/register
+   res=> register page called
+
+localhost:3000/products
+   res=> products page called
+
+localhost:3000/profile
+   res=> profile page called
+
+
+
+
+
+
+
+for continous running
+
+nodemon => node monitoring
+
+npm => node package manager
+npm install -g nodemon
+
+hereafter running command is 
+
+nodemon app.js
+
+
+
+
+
+
+
+in internet
+
+search postman for windows
+
+for installation
+
+first page => continue without acc
+second page => open lightweight api
+
+
+
+create new route 
+
+/deleteusers
+     with delete method
+
+
+
+
+
+
+
+
+
+
+16/09/2026
+
+Today's topic:
+   -ExpressJs introduction
+   -routes on expressJs
+   -postman introduction and usage
+
+
+
+
+npm init
+
+npm install express
+
+npm install mongodb
+
+
+
+
+
+
+
+
+
+
+
+
+express
+   - its a nodejs framework to create routes and api's 
+      easily
+
+nodejs
+  req.url =="/home" req.method=="POST"
+
+app.post("/addstudent")
+app.get("/getstudent")
+app.put("/updatestudent")
+app.delete("/deletestudent")
+
+
+
+
+
+
+hrroutes
+  api/hr/employees  => GET
+  api/hr/assign-task => post
+  api/hr/tasks =>GET
+  api/hr/notifications => GET
+
+employeeroutes
+   api/employee/task
+   api/employee/todo
+   api/employee/todos
+
+
+
+
+
+
+
+
+
+
+
+in your project folder
+1.
+ npm init -y
+it will create package.json file
+2.
+download express
+   npm install express
+3.
+create index.js file
+  type basic code
+
+
+
